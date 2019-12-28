@@ -1,0 +1,80 @@
+/* media screen 1024px */
+
+@media screen and (max-width: 1024px){
+  .hero-image p{
+    text-align: center;
+  }
+}
+
+/* media screen 768px */
+
+@media screen and (max-width: 768px){
+  .logo{
+    font-size: 110%;
+  }
+  .menu ul li a{
+    font-size: 90%;
+  }
+  .hero-image h1{
+    font-size: 300%;
+  }
+  .hero-image p{
+    font-size: 100%;
+  }
+  footer p{
+    font-size: 88%;
+  }
+}
+
+/* media screen 425px */
+
+@media screen and (max-width: 425px){
+  header{
+    flex-direction: column;
+  }
+  .hero-image h1{
+    font-size: 220%;
+    text-align: center;
+  }
+  .hero-image p{
+    font-size: 90%;
+  }
+  .what .items .item{
+    display: flex;
+    text-align: left;
+  }
+  .what .items .item span{
+    align-self: center;
+    margin-right: 1.5rem;
+    padding: .2rem .7rem;
+  }
+  .what .items{
+    display: block;
+  }
+  .who{
+    display: block;
+  }
+  .clients .items img{
+    width: 80%;
+  } 
+  footer p{
+    font-size: 83%;
+  }
+}
+
+/* media screen 425px */
+
+@media screen and (max-width: 375px){
+  .clients .items img{
+    width: 80%;
+  }
+  .clients .items div:last-child{
+    display: none;
+  }
+  .contact p{
+    font-size: 85%;
+  }
+  footer p{
+    font-size: 78%;
+  }
+}

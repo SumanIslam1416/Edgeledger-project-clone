@@ -1,0 +1,250 @@
+  /* Global Styles
+  ---------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: normal;
+
+}
+  /* reusable Styles
+  ---------------------------- */
+.container{
+  max-width: 1140px;
+  display: block;
+  margin: 0 auto;
+}
+.primary-color{
+  color:#93cb52;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+h1,h2,h3{
+  margin-bottom: 0,8rem;
+  line-height: 1.7;
+}
+p{
+  margin-bottom: .4rem;
+}
+  /* header Styles
+  ---------------------------- */
+header{
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 0.8rem 1rem;
+  color: #fff;
+  z-index: 1;
+}
+.logo{
+  font-size: 125%;
+  margin: 0;
+}
+.main-nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu ul li a{
+  font-size: 95%;
+  padding: 0.75rem;
+}
+.menu ul li a:hover{
+  background-color: #93cb52;
+  border-radius: 5px;
+}
+  /* header Styles
+  ---------------------------- */
+.hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.295)), url(photo/showcase.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.hero-image h1{
+  font-size: 350%;
+}
+.hero-image p{
+  font-size: 105%;
+}
+.hero-image a{
+  display: inline-block;
+  background-color: #93cb52;
+  padding: .3rem 1.5rem;
+  border-radius: 5px;
+  font-size: 90%;
+  margin-top: 1rem;
+}
+.hero-image a:hover{
+  background-color: #83c13a;
+}
+  /* what we do section Styles
+  ---------------------------- */
+.what{
+  background: #f4f4f4;
+  padding: 1.5rem;
+}
+.what h1{
+  font-size: 170%;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.what .items{
+  display: flex;
+}
+.what .items .item{
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+.what .items .item span{
+  font-size: 160%;
+  display: inline;
+  background-color: #93cb52;
+  border-radius: 50%;
+  padding: .5rem 0.7rem;
+}
+.what .items .item h2{
+  font-size: 90%;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.what .items .item p{
+  font-size: 90%;
+}
+ /* what we do section Styles
+  ---------------------------- */
+.who{
+  display: flex;
+}
+.who .who-image{
+  background: url('photo/people.jpg') no-repeat center/cover;
+}
+.who div{
+  flex: 1;
+}
+.who-description{
+  background: #333;
+  color: #fff;
+  padding: 1.3rem 1.5rem;
+}
+.who-description p{
+  font-size: 85%;
+}
+.who-description h3{
+  font-size: 100%;
+}
+.who-description ul{
+  list-style: none;
+  font-size: 90%;
+}
+.who-description ul li{
+  border-bottom: 1px dotted #444;
+  padding: 0.4rem 0;
+}
+
+  /* client section Styles
+  ---------------------------- */
+.clients{
+  padding: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+.clients h1{
+  font-size: 170%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.clients .items{
+  display: flex;
+}
+.clients .items img{
+  display: block;
+  width: 60%;
+  margin: auto;
+} 
+  /* contact us section Styles
+  ---------------------------- */
+.contact{
+  background-color: #93cb52;
+  padding: 1.5rem 2rem 2rem;
+  color: #fff;
+}
+.center{
+  max-width: 800px;
+  margin: auto;
+}
+.contact h1{
+  font-size: 160%;
+}
+.contact p{
+  font-size: 92%;
+}
+.form{
+  margin-bottom: 1rem;
+}
+input,label,textarea{
+  display: block;
+  width: 100%;
+}
+input[type=submit]{
+  width: auto;
+  padding: .5rem 2rem;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+  margin-top: 0.9rem;
+  border: none;
+  font-size: 90%;
+}
+input[type=submit]:hover{
+  background: #f4d03f;
+  cursor: pointer;
+}
+input{
+  padding: 0.5rem;
+  border: 1px solid #919191;
+}
+textarea{
+  height: 150px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #919191;
+}
+input:focus,
+textarea:focus{
+  outline: none;
+  border: 1px solid #f8c573;
+}
+
+/* contact us section Styles
+  ---------------------------- */
+footer{
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+footer p{
+  margin: 0;
+  font-size: 90%;
+}
